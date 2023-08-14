@@ -44,6 +44,17 @@ Statistical tests serve as fundamental tools for data scientists to draw meaning
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692030292640/d3314739-72f5-41d8-a979-273e568625d9.png align="center")
 
+Notation:
+
+* $t$ - t-statistic
+    
+* $\\bar{x}\_1, \\bar{x}\_2$ - Sample means
+    
+* $s\_1, s\_2$ - Sample standard deviations
+    
+* $n\_1, n\_2$ - Sample sizes
+    
+
 **2\. Analysis of Variance (ANOVA):**
 
 *Assumptions:*
@@ -78,6 +89,15 @@ Statistical tests serve as fundamental tools for data scientists to draw meaning
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692030314288/b1f17ef1-1dd4-4fa9-91c5-62567db5a1e6.png align="center")
 
+Notation:
+
+* $F$ - F-statistic
+    
+* $MS\_{\\text{between}}$ - Mean square between groups
+    
+* $MS\_{\\text{within}}$ - Mean square within groups
+    
+
 **3\. Chi-Squared Test:**
 
 *Assumptions:*
@@ -109,6 +129,15 @@ Statistical tests serve as fundamental tools for data scientists to draw meaning
 *Formula (Chi-Squared Test for Independence):*
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692030333899/8cb1a42f-61ec-4061-91a2-2ad2bdbebd64.png align="center")
+
+Notation:
+
+* $\\chi^2$ - Chi-squared statistic
+    
+* $O$ - Observed frequency
+    
+* $E$ - Expected frequency
+    
 
 **4\. Mann-Whitney U Test (Wilcoxon Rank-Sum Test):**
 
@@ -144,6 +173,15 @@ Statistical tests serve as fundamental tools for data scientists to draw meaning
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692030351854/e87ec2ea-4daa-4434-aab3-d7c4fc22dc5c.png align="center")
 
+Notation:
+
+* $U$ - Mann-Whitney U statistic
+    
+* $R\_1$ - Sum of ranks in the first sample
+    
+* $n\_1$ - Sample size of the first group
+    
+
 **5\. Kruskal-Wallis Test:**
 
 *Assumptions:*
@@ -177,6 +215,17 @@ Statistical tests serve as fundamental tools for data scientists to draw meaning
 *Formula (Kruskal-Wallis Test):*
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692030370268/8de26e78-9d4d-49c7-a5cf-787c6ab02587.png align="center")
+
+Notation:
+
+* $H$ - Kruskal-Wallis H statistic
+    
+* $N$ - Total number of observations
+    
+* $R\_i$ - Sum of ranks in the $i$th group
+    
+* $n\_i$ - Sample size of the $i$th group
+    
 
 **6\. Pearson Correlation Coefficient:**
 
