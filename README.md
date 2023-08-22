@@ -1,3 +1,3 @@
-#### :books: Recent Blog Posts
-<!-- BLOGPOSTS:START -->
-<!-- BLOGPOSTS:END -->
+# Latest Blog Posts 👇
+<!-- HASHNODE_BLOG:START -->
+<!-- HASHNODE_BLOG:END -->
