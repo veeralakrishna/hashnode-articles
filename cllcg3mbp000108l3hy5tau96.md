@@ -3,6 +3,7 @@ title: "1.0 Unveiling the Power of Difference-in-Differences Analysis"
 datePublished: Tue Aug 15 2023 15:15:11 GMT+0000 (Coordinated Universal Time)
 cuid: cllcg3mbp000108l3hy5tau96
 slug: 10-unveiling-the-power-of-difference-in-differences-analysis
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692694487722/578afb32-e8f0-41bc-af7e-9bf24966b029.png
 tags: data-science, causal-inference
 
 ---
