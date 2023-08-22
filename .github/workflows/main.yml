@@ -1,20 +1,25 @@
-name: Hashnode Blog Posts
+name: "📚 latest Blog"
+
 on:
-  schedule:
-    # Runs every 6 hours of the day
-    - cron: '0 */6 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: "0 */24 * * *" # Runs Every 24 Hours
 
 jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with the latest blog posts
+  update_blogs:
+    name: "Update With Latest Blogs"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "📚  Hashnode Updater"
+        uses: "varunsridharan/action-hashnode-blog@1.1.1"
         with:
-          comment_tag_name: "BLOGPOSTS"
-          feed_list: "https://pluviophile.hashnode.dev/rss.xml"
-          template: "$newline - $randomEmoji(💯,🔥,💫,🚀,🌮) [$title]($url)"
-          commit_message: "recent posts section updated"
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: "Pluviophile" # Hashnode Username
+          COUNT: 10 # MAX Visisble
+          STYLE: "blog-left"
+          BLOG_URL: "https://pluviophile.hashnode.dev/"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
